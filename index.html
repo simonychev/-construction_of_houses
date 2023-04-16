@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="dist/style.min.css">
+    <title>Строительство домов и коттеджей</title>
+</head>
+
+<body>
+
+<div class="main">
+    <div class="container">
+        <header class="header">
+            <div id="burger" class="header-burger">
+                <div class="burger-item"></div>
+                <div class="burger-item"></div>
+                <div class="burger-item"></div>
+            </div>
+            <nav id="menu" class="menu">
+                <div id="menu-close" class="close">
+                    <svg width="30px" height="30px" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                    </svg>
+                </div>
+                <h2>Меню</h2>
+                <ul>
+                    <li>
+                        <a class="menu-item" href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#technology">Технологии</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#projects">Наши проекты</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#">Производство</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#guarantees">Гарантия</a>
+                    </li>
+                </ul>
+                <div class="menu-social">
+                    <a class="social-item" target="_blank" href="https://www.instagram.com/">
+                        <svg width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                        </svg>
+                    </a>
+                    <a class="social-item" target="_blank" href="https://web.telegram.org/z/">
+                        <svg width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                    d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z"/>
+                        </svg>
+                    </a>
+                    <a class="social-item" target="_blank" href="https://www.youtube.com/">
+                        <svg width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 32 32">
+                            <path
+                                    d="M30.722,20.579 C30.137,21.894 28.628,23.085 27.211,23.348 C27.066,23.375 23.603,24.000 16.010,24.000 L15.990,24.000 C8.398,24.000 4.932,23.375 4.788,23.349 C3.371,23.085 1.861,21.894 1.275,20.578 C1.223,20.461 0.001,17.647 0.001,12.000 C0.001,6.353 1.223,3.538 1.275,3.421 C1.861,2.105 3.371,0.915 4.788,0.652 C4.932,0.625 8.398,-0.000 15.990,-0.000 C23.603,-0.000 27.066,0.625 27.210,0.651 C28.628,0.915 30.137,2.105 30.723,3.420 C30.775,3.538 32.000,6.353 32.000,12.000 C32.000,17.647 30.775,20.461 30.722,20.579 ZM28.893,4.230 C28.581,3.529 27.603,2.759 26.845,2.618 C26.813,2.612 23.386,2.000 16.010,2.000 C8.615,2.000 5.185,2.612 5.152,2.618 C4.394,2.759 3.417,3.529 3.104,4.234 C3.094,4.255 2.002,6.829 2.002,12.000 C2.002,17.170 3.094,19.744 3.106,19.770 C3.417,20.471 4.394,21.241 5.153,21.382 C5.185,21.388 8.615,22.000 15.990,22.000 L16.010,22.000 C23.386,22.000 26.813,21.388 26.846,21.382 C27.604,21.241 28.581,20.471 28.894,19.766 C28.904,19.744 29.998,17.170 29.998,12.000 C29.998,6.830 28.904,4.255 28.893,4.230 ZM13.541,17.846 C13.379,17.949 13.193,18.000 13.008,18.000 C12.842,18.000 12.676,17.959 12.525,17.875 C12.206,17.699 12.008,17.364 12.008,17.000 L12.008,7.000 C12.008,6.637 12.204,6.303 12.521,6.127 C12.838,5.950 13.227,5.958 13.534,6.149 L21.553,11.105 C21.846,11.286 22.026,11.606 22.027,11.951 C22.028,12.296 21.852,12.618 21.560,12.801 L13.541,17.846 ZM14.009,8.794 L14.009,15.189 L19.137,11.963 L14.009,8.794 Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+            <div class="header-image">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="header-action">
+                <div class="header-phone">+7 (831) 232-43-75</div>
+                <div class="header-phone-text">
+                    <div class="phone-circle">
+                        <div class="phone-circle-little"></div>
+                        <div class="phone-circle-medium"></div>
+                        <div class="phone-circle-big"></div>
+                    </div>
+                    <div class="phone-text consultation">Заказать звонок</div>
+                </div>
+            </div>
+        </header>
+        <section class="main-title">
+            <div class="main-title-text">
+                <h1>Строительство домов и коттеджей под ключ</h1>
+                <p>Сможете переехать в готовый дом уже через 3 месяца</p>
+                <button class="btn consultation hvr-pulse">Узнать подробнее</button>
+            </div>
+            <div class="main-social">
+                <a class="social-item" target="_blank" href="https://www.instagram.com/">
+                    <svg width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                    </svg>
+                </a>
+                <a class="social-item" target="_blank" href="https://web.telegram.org/z/">
+                    <svg width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                                d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z"/>
+                    </svg>
+                </a>
+                <a class="social-item" target="_blank" href="https://www.youtube.com/">
+                    <svg width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 32 32">
+                        <path
+                                d="M30.722,20.579 C30.137,21.894 28.628,23.085 27.211,23.348 C27.066,23.375 23.603,24.000 16.010,24.000 L15.990,24.000 C8.398,24.000 4.932,23.375 4.788,23.349 C3.371,23.085 1.861,21.894 1.275,20.578 C1.223,20.461 0.001,17.647 0.001,12.000 C0.001,6.353 1.223,3.538 1.275,3.421 C1.861,2.105 3.371,0.915 4.788,0.652 C4.932,0.625 8.398,-0.000 15.990,-0.000 C23.603,-0.000 27.066,0.625 27.210,0.651 C28.628,0.915 30.137,2.105 30.723,3.420 C30.775,3.538 32.000,6.353 32.000,12.000 C32.000,17.647 30.775,20.461 30.722,20.579 ZM28.893,4.230 C28.581,3.529 27.603,2.759 26.845,2.618 C26.813,2.612 23.386,2.000 16.010,2.000 C8.615,2.000 5.185,2.612 5.152,2.618 C4.394,2.759 3.417,3.529 3.104,4.234 C3.094,4.255 2.002,6.829 2.002,12.000 C2.002,17.170 3.094,19.744 3.106,19.770 C3.417,20.471 4.394,21.241 5.153,21.382 C5.185,21.388 8.615,22.000 15.990,22.000 L16.010,22.000 C23.386,22.000 26.813,21.388 26.846,21.382 C27.604,21.241 28.581,20.471 28.894,19.766 C28.904,19.744 29.998,17.170 29.998,12.000 C29.998,6.830 28.904,4.255 28.893,4.230 ZM13.541,17.846 C13.379,17.949 13.193,18.000 13.008,18.000 C12.842,18.000 12.676,17.959 12.525,17.875 C12.206,17.699 12.008,17.364 12.008,17.000 L12.008,7.000 C12.008,6.637 12.204,6.303 12.521,6.127 C12.838,5.950 13.227,5.958 13.534,6.149 L21.553,11.105 C21.846,11.286 22.026,11.606 22.027,11.951 C22.028,12.296 21.852,12.618 21.560,12.801 L13.541,17.846 ZM14.009,8.794 L14.009,15.189 L19.137,11.963 L14.009,8.794 Z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="main-list-down">
+                <span>Листайте вниз</span>
+                <svg width="15px" height="30px" fill="#bababa" xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 384 512">
+                    <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                            d="M169.4 502.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 402.7 224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 370.7L86.6 329.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z"/>
+                </svg>
+            </div>
+        </section>
+    </div>
+</div>
+
+<section id="projects" class="projects">
+    <div class="container">
+        <h2>Наши проекты</h2>
+        <div class="project-items project-items-mh3">
+            <h3>Modern house 003</h3>
+            <div class="project-item-images project-item-images-mh3">
+                <a href="images/modern-house-003.png"><img
+                        src="images/modern-house-003.png" alt="Modern house 003"></a>
+                <div class="project-item-image-low">
+                    <a href="images/brian-babb-XbwHrt87mQ0-unsplash.png"><img
+                            src="images/brian-babb-XbwHrt87mQ0-unsplash.png" alt=""></a>
+                    <a href="images/99.png"><img src="images/99.png" alt=""></a>
+                    <a href="images/31.png"><img src="images/31.png" alt=""></a>
+                </div>
+            </div>
+            <div class="project-item-text project-item-text-h">
+                <p>Этот проект представляет собой красивый и удобный одноэтажный дом с многоскатной кровлей, эркером
+                    и
+                    камином на террасе. Его внешний традиционный архитектурный стиль прекрасно сочетается с
+                    современной
+                    практичной планировкой интерьера.</p>
+                <div class="project-circle">
+                    <div class="project-circle-item">
+                        <span>134 м&sup2;</span>
+                    </div>
+                    <div class="project-circle-item">
+                        <span>4 спальни</span>
+                    </div>
+                    <div class="project-circle-item">
+                        <span>2 санузла</span>
+                    </div>
+                </div>
+                <div class="projects-button">
+                    <button class="btn btn-project consultation hvr-pulse">Получить консультацию</button>
+                    <button class="btn btn-project btn-transparent download hvr-grow">Скачать PDF-план проекта
+                        (2,5мб)
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="project-items project-items-mh4">
+            <h3>Modern house 004</h3>
+            <div class="project-item-text project-item-text-l">
+                <p>Компактный и функциональный дом подкупает простотой
+                    решений.
+                    Простая форма и двухскатная кровля
+                    позволяет вести строительство быстро и достаточно экономично. Комнаты сделаны максимально
+                    просторными за счет маленьких технических и коммуникационных помещений.</p>
+                <div class="project-circle">
+                    <div class="project-circle-item">
+                        <span>145 м&sup2;</span>
+                    </div>
+                    <div class="project-circle-item">
+                        <span>3 спальни</span>
+                    </div>
+                    <div class="project-circle-item">
+                        <span>2 санузла</span>
+                    </div>
+                </div>
+                <div class="projects-button">
+                    <button class="btn btn-project consultation hvr-pulse">Получить консультацию</button>
+                    <button class="btn btn-project btn-transparent download hvr-grow">Скачать PDF-план проекта
+                        (2,5мб)
+                    </button>
+                </div>
+            </div>
+            <div class="project-item-images project-item-images-mh4">
+                <a href="images/901.png"><img src="images/901.png" alt="Modern house 004"></a>
+                <div class="project-item-image-low">
+                    <a href="images/brian-babb-XbwHrt87mQ0-unsplash.png"><img
+                            src="images/brian-babb-XbwHrt87mQ0-unsplash.png" alt=""></a>
+                    <a href="images/99.png"><img src="images/99.png" alt=""></a>
+                    <a href="images/31.png"><img src="images/31.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div id="projects-next">
+            <div class="project-items project-items-mh3">
+                <h3>Modern house 005</h3>
+                <div class="project-item-images project-item-images-mh5">
+                    <a href="images/005.png"><img
+                            src="images/005.png" alt="Modern house 005"></a>
+                    <div class="project-item-image-low">
+                        <a href="images/brian-babb-XbwHrt87mQ0-unsplash.png"><img
+                                src="images/brian-babb-XbwHrt87mQ0-unsplash.png" alt=""></a>
+                        <a href="images/99.png"><img src="images/99.png" alt=""></a>
+                        <a href="images/31.png"><img src="images/31.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="project-item-text project-item-text-h">
+                    <p>Этот проект представляет собой красивый и удобный одноэтажный дом с многоскатной кровлей,
+                        эркером
+                        и
+                        камином на террасе. Его внешний традиционный архитектурный стиль прекрасно сочетается с
+                        современной
+                        практичной планировкой интерьера.</p>
+                    <div class="project-circle">
+                        <div class="project-circle-item">
+                            <span>134 м&sup2;</span>
+                        </div>
+                        <div class="project-circle-item">
+                            <span>4 спальни</span>
+                        </div>
+                        <div class="project-circle-item">
+                            <span>2 санузла</span>
+                        </div>
+                    </div>
+                    <div class="projects-button">
+                        <button class="btn btn-project consultation hvr-pulse">Получить консультацию</button>
+                        <button class="btn btn-project btn-transparent download hvr-grow">Скачать PDF-план проекта
+                            (2,5мб)
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-items project-items-mh4">
+                <h3>Modern house 006</h3>
+                <div class="project-item-text project-item-text-l">
+                    <p class="project-item-text-description">Компактный и функциональный дом подкупает простотой
+                        решений.
+                        Простая форма и двухскатная кровля
+                        позволяет вести строительство быстро и достаточно экономично. Комнаты сделаны максимально
+                        просторными за счет маленьких технических и коммуникационных помещений.</p>
+                    <div class="project-circle">
+                        <div class="project-circle-item">
+                            <span>145 м&sup2;</span>
+                        </div>
+                        <div class="project-circle-item">
+                            <span>3 спальни</span>
+                        </div>
+                        <div class="project-circle-item">
+                            <span>2 санузла</span>
+                        </div>
+                    </div>
+                    <div class="projects-button">
+                        <button class="btn btn-project consultation hvr-pulse">Получить консультацию</button>
+                        <button class="btn btn-project btn-transparent download hvr-grow">Скачать PDF-план проекта
+                            (2,5мб)
+                        </button>
+                    </div>
+                </div>
+                <div class="project-item-images project-item-images-mh6">
+                    <a href="images/006.png"><img src="images/006.png" alt="Modern house 006"></a>
+                    <div class="project-item-image-low">
+                        <a href="images/brian-babb-XbwHrt87mQ0-unsplash.png"><img
+                                src="images/brian-babb-XbwHrt87mQ0-unsplash.png" alt=""></a>
+                        <a href="images/99.png"><img src="images/99.png" alt=""></a>
+                        <a href="images/31.png"><img src="images/31.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-items project-items-mh3">
+                <h3>Modern house 007</h3>
+                <div class="project-item-images project-item-images-mh7">
+                    <a href="images/007.png"><img
+                            src="images/007.png" alt="Modern house 007"></a>
+                    <div class="project-item-image-low">
+                        <a href="images/brian-babb-XbwHrt87mQ0-unsplash.png"><img
+                                src="images/brian-babb-XbwHrt87mQ0-unsplash.png" alt=""></a>
+                        <a href="images/99.png"><img src="images/99.png" alt=""></a>
+                        <a href="images/31.png"><img src="images/31.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="project-item-text project-item-text-h">
+                    <p>Этот проект представляет собой красивый и удобный одноэтажный дом с многоскатной кровлей,
+                        эркером
+                        и
+                        камином на террасе. Его внешний традиционный архитектурный стиль прекрасно сочетается с
+                        современной
+                        практичной планировкой интерьера.</p>
+                    <div class="project-circle">
+                        <div class="project-circle-item">
+                            <span>134 м&sup2;</span>
+                        </div>
+                        <div class="project-circle-item">
+                            <span>4 спальни</span>
+                        </div>
+                        <div class="project-circle-item">
+                            <span>2 санузла</span>
+                        </div>
+                    </div>
+                    <div class="projects-button">
+                        <button class="btn btn-project consultation hvr-pulse">Получить консультацию</button>
+                        <button class="btn btn-project btn-transparent download hvr-grow">Скачать PDF-план проекта
+                            (2,5мб)
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="project-next-btn" class="project-more">
+            <span id="project-next-text">Посмотреть еще 3 проекта</span>
+            <svg id="project-arrow" width="16px" fill="#89898a" xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 448 512">
+                <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                        d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/>
+            </svg>
+        </div>
+    </div>
+</section>
+
+<section id="technology" class="house">
+    <div class="container">
+        <h2>Технологии строительства</h2>
+        <div class="house-block">
+            <div class="house-block-image">
+                <img src="images/big-house.png" alt="house">
+                <div id="house-circle-window" class="house-circle">
+                    <div class="house-circle-min"></div>
+                    <div class="house-circle-max"></div>
+                    <div class="window-line-min circle-description"></div>
+                    <div class="window-line-max circle-description"></div>
+                </div>
+                <div id="house-circle-roof" class="house-circle">
+                    <div class="house-circle-min"></div>
+                    <div class="house-circle-max"></div>
+                    <div class="roof-line-min circle-description"></div>
+                    <div class="roof-line-max circle-description"></div>
+                </div>
+                <div id="house-circle-veranda" class="house-circle">
+                    <div class="house-circle-min"></div>
+                    <div class="house-circle-max"></div>
+                    <div class="veranda-line-min circle-description"></div>
+                    <div class="veranda-line-max circle-description"></div>
+                </div>
+                <div id="house-circle-wall" class="house-circle">
+                    <div class="house-circle-min"></div>
+                    <div class="house-circle-max"></div>
+                    <div class="wall-line-min circle-description"></div>
+                    <div class="wall-line-max circle-description"></div>
+                </div>
+                <div id="house-circle-foundation" class="house-circle">
+                    <div class="house-circle-min"></div>
+                    <div class="house-circle-max"></div>
+                    <div class="foundation-line-min circle-description"></div>
+                    <div class="foundation-line-max circle-description"></div>
+                </div>
+            </div>
+            <div id="house-text-frame" class="house-block-text">
+                <h3>Неразрывный каркас</h3>
+                <p>Монтаж стен этажей внутри дома и по всему периметру выполняется единым массивом</p>
+            </div>
+            <div id="house-text-diagonal" class="house-block-text">
+                <h3>Диагональный раскос</h3>
+                <p>Система диагональных раскосов позволяет создать оптимальный вентиляционный зазор для
+                    капитальных стен
+                    и наружной отделки</p>
+            </div>
+            <div id="house-text-knot" class="house-block-text">
+                <h3>Сборка силовых узлов</h3>
+                <p>Основные силовые узлы наших домов оцинкованы, что позволяет быть уверенными в исключительной
+                    прочности и долговечности конструкции</p>
+            </div>
+            <div id="house-text-wind" class="house-block-text">
+                <h3>Плитная ветрозащита</h3>
+                <p>Используемая влагостойкая ветрозащитная плита обеспечивает дополнительную шумоизоляцию стен
+                </p>
+            </div>
+            <div id="house-text-window" class="house-block-text">
+                <h3>5 камерные окна</h3>
+                <p>Обеспечивает исключительную сохранность тепла в доме</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section step-house">
+    <div class="container">
+        <h2 class="step-house-title">6 шагов к вашему новому дому</h2>
+        <div class="step-house-items">
+            <div class="step-house-item wow animate__flipInY">
+                <div class="step-house-block">
+                    <div class="block-number">
+                        <h2>01</h2>
+                    </div>
+                    <div class="block-image"><img src="images/chat.png" alt="chat"></div>
+                </div>
+                <div class="step-house-text">
+                    <h3>Заявка на сайте</h3>
+                    <p>Вы оставляете заявку на сайте, или звоните нам +7 (831) 232-43-75</p>
+                </div>
+            </div>
+            <div class="step-house-item wow animate__flipInY">
+                <div class="step-house-block">
+                    <div class="block-number">
+                        <h2>02</h2>
+                    </div>
+                    <div class="block-image"><img src="images/phone-call.png" alt="chat"></div>
+                </div>
+                <div class="step-house-text">
+                    <h3>Звонок</h3>
+                    <p class="house-text-max">Мы связываемся с вами для уточнения деталей и выбираем время для
+                        встречи</p>
+                </div>
+            </div>
+            <div class="step-house-item wow animate__flipInY">
+                <div class="step-house-block">
+                    <div class="block-number">
+                        <h2>03</h2>
+                    </div>
+                    <div class="block-image"><img src="images/conference.png" alt="chat"></div>
+                </div>
+                <div class="step-house-text">
+                    <h3>Встреча</h3>
+                    <p>Встречаемся на вашем участке и делаем все необходимые замеры</p>
+                </div>
+            </div>
+            <div class="step-house-item wow animate__flipInY">
+                <div class="step-house-block">
+                    <div class="block-number">
+                        <h2>04</h2>
+                    </div>
+                    <div class="block-image"><img src="images/contract.png" alt="chat"></div>
+                </div>
+                <div class="step-house-text">
+                    <h3>Договор</h3>
+                    <p>Заключаем договор с четко указанными сроками</p>
+                </div>
+            </div>
+            <div class="step-house-item wow animate__flipInY">
+                <div class="step-house-block">
+                    <div class="block-number">
+                        <h2>05</h2>
+                    </div>
+                    <div class="block-image"><img src="images/technics.png" alt="chat"></div>
+                </div>
+                <div class="step-house-text">
+                    <h3>Строительство</h3>
+                    <p>Наша бригада приступает к выполнению работ</p>
+                </div>
+            </div>
+            <div class="step-house-item wow animate__flipInY">
+                <div class="step-house-block">
+                    <div class="block-number">
+                        <h2>06</h2>
+                    </div>
+                    <div class="block-image"><img src="images/house.png" alt="chat"></div>
+                </div>
+                <div class="step-house-text">
+                    <h3>Ваш дом</h3>
+                    <p>Вы заезжаете в свой новый дом!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section slider-house">
+    <div class="container">
+        <h2>Построили более 200 домов за 10 лет</h2>
+        <div class="slider">
+            <div class="slider-item">
+                <img src="images/istockphoto-1130338518-170667a.png" alt="">
+                <div class="slid-description">
+                    <div class="slid-description-left">
+                        <h3>Modern house 005</h3>
+                        <p>Киевская обл., г. Борова, 15</p>
+                    </div>
+                    <div class="slid-description-center"></div>
+                    <div class="slid-description-right">
+                        <div class="dimensions">
+                            <p>Габариты:</p>
+                            <p>Площадь:</p>
+                        </div>
+                        <div class="square">
+                            <p>8,4 м Х 10,5 м</p>
+                            <p>154 м&sup2;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <img src="images/2.png" alt="">
+                <div class="slid-description">
+                    <div class="slid-description-left">
+                        <h3>Modern house 004</h3>
+                        <p>Донецкая обл., г. Донецк, 18</p>
+                    </div>
+                    <div class="slid-description-center"></div>
+                    <div class="slid-description-right">
+                        <div class="dimensions">
+                            <p>Габариты:</p>
+                            <p>Площадь:</p>
+                        </div>
+                        <div class="square">
+                            <p>12,5 м Х 8,6 м</p>
+                            <p>198 м&sup2;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <img src="images/3.png" alt="">
+                <div class="slid-description">
+                    <div class="slid-description-left">
+                        <h3>Modern house 003</h3>
+                        <p>Черниговская обл., г. Вологор, 42</p>
+                    </div>
+                    <div class="slid-description-center"></div>
+                    <div class="slid-description-right">
+                        <div class="dimensions">
+                            <p>Габариты:</p>
+                            <p>Площадь:</p>
+                        </div>
+                        <div class="square">
+                            <p>7,8 м Х 11,2 м</p>
+                            <p>152 м&sup2;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <img src="images/4.png" alt="">
+                <div class="slid-description">
+                    <div class="slid-description-left">
+                        <h3>Modern house 007</h3>
+                        <p>Одесская обл., г. Арман, 32</p>
+                    </div>
+                    <div class="slid-description-center"></div>
+                    <div class="slid-description-right">
+                        <div class="dimensions">
+                            <p>Габариты:</p>
+                            <p>Площадь:</p>
+                        </div>
+                        <div class="square">
+                            <p>9,8 м Х 12,5 м</p>
+                            <p>168 м&sup2;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <img src="images/5.png" alt="">
+                <div class="slid-description">
+                    <div class="slid-description-left">
+                        <h3>Modern house 006</h3>
+                        <p>Херсонская обл., г. Соном, 35</p>
+                    </div>
+                    <div class="slid-description-center"></div>
+                    <div class="slid-description-right">
+                        <div class="dimensions">
+                            <p>Габариты:</p>
+                            <p>Площадь:</p>
+                        </div>
+                        <div class="square">
+                            <p>9,6 м Х 12,5 м</p>
+                            <p>182 м&sup2;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="guarantees" class="section guarantees">
+    <div class="container">
+        <h2>Гарантии и условия оплаты</h2>
+        <div class="guarantees-block-items">
+            <div class="guarantees-block-item wow animate__slideInLeft">
+                <div class="guarantees-block-item-image">
+                    <img src="images/calendar.png" alt="calendar">
+                </div>
+                <div class="guarantees-block-item-text">
+                    <h3>Гарантия сроков</h3>
+                    <p>Юридическая гарантия сроков.</p>
+                    <p>До 0.1 % от суммы за каждый день просрочки</p>
+                </div>
+            </div>
+            <div class="guarantees-block-item wow animate__slideInRight">
+                <div class="guarantees-block-item-image">
+                    <img src="images/insurance.png" alt="insurance">
+                </div>
+                <div class="guarantees-block-item-text">
+                    <h3>Страховка</h3>
+                    <p>Гарантия 10 лет. Страховка дома.</p>
+                    <p>Обработка дома. Сервисное обслуживание</p>
+                </div>
+            </div>
+        </div>
+        <div class="guarantees-circle-items">
+            <div class="guarantees-circle-item wow animate__zoomInLeft">
+                <div class="guarantees-circle-image">
+                    <img src="images/writing.png" alt="writing">
+                </div>
+                <div class="guarantees-circle-text">
+                    <h3>Гарантия фиксированной сметы</h3>
+                    <p>Все непредсказуемые расходы компенсируем за свой счет</p>
+                </div>
+            </div>
+            <div class="guarantees-circle-item wow animate__zoomIn">
+                <div class="guarantees-circle-image">
+                    <img src="images/people.png" alt="people">
+                </div>
+                <div class="guarantees-circle-text">
+                    <h3>Без посредников</h3>
+                    <p>Мы сами выполняем все работы и несем за них ответственность</p>
+                </div>
+            </div>
+            <div class="guarantees-circle-item wow animate__zoomInRight">
+                <div class="guarantees-circle-image">
+                    <img src="images/coin.png" alt="coin">
+                </div>
+                <div class="guarantees-circle-text">
+                    <h3>Оплата по факту</h3>
+                    <p>Оплата всех работ по факту их выполнения</p>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+        <button class="btn btn-guarantees btn-transparent download hvr-grow">Скачать PDF-план проекта
+            (2,5мб)
+        </button>
+    </div>
+</section>
+
+<section class="house-form wow animate__zoomIn" id="consultation">
+    <div class="container">
+        <div class="house-form-items">
+            <div class="house-form-image">
+                <img src="images/house-form.png" alt="haus-form">
+            </div>
+            <div class="house-form-text">
+                <h2>Получите индивидуальную консультацию</h2>
+                <form id="form-input" class="form-input">
+                    <input id="name-input" class="input-value" type="text" placeholder="Ваше имя">
+                    <div class="error-input">Введите ваше имя</div>
+                    <input id="phone-input" class="form-phone input-value" type="text" placeholder="Ваш телефон">
+                    <div class="error-input">Введите ваш телефон</div>
+                    <button type="button" id="btn-form" class="btn btn-form hvr-pulse">Нужна
+                        консультация
+                    </button>
+                    <div class="chb-rights">
+                        <input id="rights" type="checkbox" name="rights">
+                        <p>Нажимая на кнопку, я даю согласие на обработку персональных данных и соглашаюсь с <a
+                                href="file/Politics.pdf" target="_blank">политикой конфиденциальности</a></p>
+                    </div>
+                </form>
+                <div id="ajax-form">
+                    <p>Спасибо, мы свяжемся с вами в ближайшее время!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="record-tour">
+    <div class="container">
+        <h2>Запишитесь на экскурсию</h2>
+        <p>В готовые дома, чтобы лично убедиться в качестве нашей работы</p>
+        <button id="popup-open" class="btn hvr-pulse">Записаться</button>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-items">
+            <div class="footer-address">
+                <p>г. Нижний Новгород, пр. Гагарина д.33</p>
+                <p>Пн-Пт: 10:00 -19:00</p>
+            </div>
+            <a href="#">
+                <div class="footer-image">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+            </a>
+            <div class="footer-action">
+                <div class="footer-phone">+7 (831) 232-43-75</div>
+                <div class="footer-phone-text">
+                    <div class="phone-circle">
+                        <div class="phone-circle-little"></div>
+                        <div class="phone-circle-medium"></div>
+                        <div class="phone-circle-big"></div>
+                    </div>
+                    <div class="phone-text consultation">Заказать звонок</div>
+                </div>
+            </div>
+            <div class="menu-social">
+                <a class="social-item" target="_blank" href="https://www.instagram.com/">
+                    <svg width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                    </svg>
+                </a>
+                <a class="social-item" target="_blank" href="https://web.telegram.org/z/">
+                    <svg width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                                d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z"/>
+                    </svg>
+                </a>
+                <a class="social-item" target="_blank" href="https://www.youtube.com/">
+                    <svg width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 32 32">
+                        <path
+                                d="M30.722,20.579 C30.137,21.894 28.628,23.085 27.211,23.348 C27.066,23.375 23.603,24.000 16.010,24.000 L15.990,24.000 C8.398,24.000 4.932,23.375 4.788,23.349 C3.371,23.085 1.861,21.894 1.275,20.578 C1.223,20.461 0.001,17.647 0.001,12.000 C0.001,6.353 1.223,3.538 1.275,3.421 C1.861,2.105 3.371,0.915 4.788,0.652 C4.932,0.625 8.398,-0.000 15.990,-0.000 C23.603,-0.000 27.066,0.625 27.210,0.651 C28.628,0.915 30.137,2.105 30.723,3.420 C30.775,3.538 32.000,6.353 32.000,12.000 C32.000,17.647 30.775,20.461 30.722,20.579 ZM28.893,4.230 C28.581,3.529 27.603,2.759 26.845,2.618 C26.813,2.612 23.386,2.000 16.010,2.000 C8.615,2.000 5.185,2.612 5.152,2.618 C4.394,2.759 3.417,3.529 3.104,4.234 C3.094,4.255 2.002,6.829 2.002,12.000 C2.002,17.170 3.094,19.744 3.106,19.770 C3.417,20.471 4.394,21.241 5.153,21.382 C5.185,21.388 8.615,22.000 15.990,22.000 L16.010,22.000 C23.386,22.000 26.813,21.388 26.846,21.382 C27.604,21.241 28.581,20.471 28.894,19.766 C28.904,19.744 29.998,17.170 29.998,12.000 C29.998,6.830 28.904,4.255 28.893,4.230 ZM13.541,17.846 C13.379,17.949 13.193,18.000 13.008,18.000 C12.842,18.000 12.676,17.959 12.525,17.875 C12.206,17.699 12.008,17.364 12.008,17.000 L12.008,7.000 C12.008,6.637 12.204,6.303 12.521,6.127 C12.838,5.950 13.227,5.958 13.534,6.149 L21.553,11.105 C21.846,11.286 22.026,11.606 22.027,11.951 C22.028,12.296 21.852,12.618 21.560,12.801 L13.541,17.846 ZM14.009,8.794 L14.009,15.189 L19.137,11.963 L14.009,8.794 Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="popup" class="popup">
+    <div class="popup-block">
+        <div class="popup-form-text">
+            <div id="popup-close" class="close">
+                <svg width="30px" height="30px" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 384 512">
+                    <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                </svg>
+            </div>
+            <h3>Пожалуйста, оставьте свои данные, чтобы мы могли связаться с вами и уточнить детали предстоящей
+                экскурсии</h3>
+            <form id="popup-form-input" class="form-input">
+                <input id="popup-name-input" class="input-value" type="text" placeholder="Ваше имя">
+                <div class="error-input">Введите ваше имя</div>
+                <input id="popup-phone-input" class="form-phone input-value" type="text" placeholder="Ваш телефон">
+                <div class="error-input">Введите ваш телефон</div>
+                <button type="button" id="popup-btn-form" class="btn btn-form">Записаться</button>
+                <div class="chb-rights">
+                    <input id="popup-rights" type="checkbox" name="rights">
+                    <p>Нажимая на кнопку, я даю согласие на обработку персональных данных и соглашаюсь с <a
+                            href="file/Politics.pdf" target="_blank">политикой
+                        конфиденциальности</a></p>
+                </div>
+            </form>
+            <div id="ajax-form-popup">
+                <p>Спасибо, мы свяжемся с вами в ближайшее время!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="loader">
+    <div class="lds-spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+<script src="script/jquery-3.6.4.min.js"></script>
+<script src="script/slick.min.js"></script>
+<script src="script/jquery.magnific-popup.min.js"></script>
+<script src="script/jquery.inputmask.min.js"></script>
+<script src="script/wow.min.js"></script>
+<script src="script/main.js"></script>
+
+</body>
+
+</html>

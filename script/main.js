@@ -144,7 +144,7 @@ $('#btn-form').on('click', function () {
         loader.css('display', 'flex');
         $.ajax({
             type: 'post',
-            url: 'https://github.com/simonychev/construction_of_houses/blob/main/telegram.php',
+            url: 'https://github.com/simonychev/construction_of_houses/blob/main/',
             data: 'name=' + name.val() + '&phone=' + phone.val(),
             success: () => {
                 loader.hide();

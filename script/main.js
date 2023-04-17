@@ -143,21 +143,21 @@ $('#btn-form').on('click', function () {
     if (name.val() && phone.val() && rights.is(':checked')) {
         loader.css('display', 'flex');
         $.ajax({
-            type: 'post',
-            url: 'https://github.com/simonychev/construction_of_houses/blob/main/',
-            data: 'name=' + name.val() + '&phone=' + phone.val(),
-            success: () => {
+            method: "POST",
+            url: "https://testologia.site/checkout",
+            data: {rights: rights.is(':checked'), name: name.val(), phone: phone.val()},
+            success: function (data) {
                 loader.hide();
-                let formInput = $('#form-input');
+                let formInput = $('#popup-form-input');
+                if (name.val() === 'itlogia') {
                     formInput.hide();
-                    $('#ajax-form').show();
-                },
-                error: () => {
+                    $('#ajax-form-popup').show();
+                } else {
                     alert('Возникла непредвиденная ошибка, позвоните нам и получите консультацию!');
                 }
-            });
-        } else {
-          //alert('Возникла непредвиденная ошибка!');   
+                formInput.trigger("reset");
+            }
+        })       
     }
 });
 

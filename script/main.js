@@ -140,28 +140,28 @@ $('#btn-form').on('click', function () {
         hasError = true;
     }
 
-    if (!hasError) {
+    if (name.val() && phone.val() && rights.is(':checked')) {
         loader.css('display', 'flex');
         $.ajax({
-            method: "POST",
-            url: "https://testologia.site/checkout",
-            data: {rights: rights.is(':checked'), name: name.val(), phone: phone.val()},
-            success: function (data) {
+            type: 'post',
+            url: 'telegram.php',
+            data: 'name=' + name.val() + '&phone=' + phone.val(),
+            success: () => {
                 loader.hide();
                 let formInput = $('#form-input');
-                if (name.val() === 'itlogia') {
                     formInput.hide();
                     $('#ajax-form').show();
-                } else {
+                },
+                error: () => {
                     alert('Возникла непредвиденная ошибка, позвоните нам и получите консультацию!');
                 }
-                formInput.trigger("reset");
-            }
-        })
+            });
+        } else {
+          //alert('Возникла непредвиденная ошибка!');   
     }
 });
 
-$('#popup-btn-form').on('click', function () {
+$('#popup-btn-form').click(function () {
     let name = $('#popup-name-input');
     let phone = $('#popup-phone-input');
     let rights = $('#popup-rights');

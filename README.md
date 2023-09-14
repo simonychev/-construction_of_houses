@@ -15,4 +15,4 @@ https://simonychev.github.io/construction_of_houses/
 - адаптивная верстка от 1400px до 320px
 
 <h2>Внешний вид приложения</h2>
-<img src="https://github.com/simonychev/construction_of_houses/blob/main/images/house.png">
+<img src="https://github.com/simonychev/construction_of_houses/blob/main/images/house333.png">
